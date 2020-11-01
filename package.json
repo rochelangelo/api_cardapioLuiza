@@ -1,0 +1,19 @@
+{
+  "name": "api_luiza",
+  "version": "1.0.0",
+  "description": "Api para uso de aplicativos voltado ao CaféLuiza",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rochel Ângelo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "winston": "^3.3.3"
+  },
+  "type": "module"
+}

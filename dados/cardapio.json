@@ -1,0 +1,347 @@
+{
+  "nextId": 40,
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Expresso uno",
+      "valor": 4,
+      "descricao": "expresso (café puro) 60ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas quentes"
+    },
+    {
+      "id": 2,
+      "nome": "Expresso duo",
+      "valor": 6.5,
+      "descricao": "expresso (café puro) 180ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas quentes"
+    },
+    {
+      "id": 3,
+      "nome": "café + latte",
+      "valor": 7.5,
+      "descricao": "expresso + leite + creme 180ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas quentes"
+    },
+    {
+      "id": 4,
+      "nome": "café + latte pequeno",
+      "valor": 4.5,
+      "descricao": "expresso + leite + creme 60ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas quentes"
+    },
+    {
+      "id": 5,
+      "nome": "descafeinado uno",
+      "valor": 5,
+      "descricao": "expresso especial sem cafeina 60ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas quentes"
+    },
+    {
+      "id": 6,
+      "nome": "carioca",
+      "valor": 4.5,
+      "descricao": "50% água + 50% expresso 180ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas quentes"
+    },
+    {
+      "id": 7,
+      "nome": "café colino",
+      "valor": 7,
+      "descricao": "café filtrado tradicional 180ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas quentes"
+    },
+    {
+      "id": 8,
+      "nome": "capuccino cremoso",
+      "valor": 6,
+      "descricao": "capuccino cremoso",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas quentes"
+    },
+    {
+      "id": 9,
+      "nome": "capuccino brasileiro",
+      "valor": 7.5,
+      "descricao": "expresso + leite + chocolate e canela 180ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas quentes"
+    },
+    {
+      "id": 10,
+      "nome": "capuccino trufado",
+      "valor": 7.5,
+      "descricao": "capuccino especial + leite cremoso + calda de chocolate 120ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas quentes"
+    },
+    {
+      "id": 11,
+      "nome": "café citrus",
+      "valor": 8.5,
+      "descricao": "expresso + creme de leite + raspa de limão 180ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas quentes"
+    },
+    {
+      "id": 12,
+      "nome": "café citrus",
+      "valor": 8.5,
+      "descricao": "expresso + creme de leite + raspa de limão 180ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas quentes"
+    },
+    {
+      "id": 13,
+      "nome": "submarino",
+      "valor": 6,
+      "descricao": "leite cremoso + barra de chocolate 180ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas quentes"
+    },
+    {
+      "id": 14,
+      "nome": "chá",
+      "valor": 3,
+      "descricao": "chá tipo infusão 150ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas quentes"
+    },
+    {
+      "id": 15,
+      "nome": "mocha",
+      "valor": 10,
+      "descricao": "creme de chocolate + leite + expresso 120ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas especiais"
+    },
+    {
+      "id": 16,
+      "nome": "café + choco",
+      "valor": 8,
+      "descricao": "raspa de chocolate + expresso 180ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas especiais"
+    },
+    {
+      "id": 17,
+      "nome": "café bombom",
+      "valor": 8,
+      "descricao": "leite condensado + expresso 120ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas especiais"
+    },
+    {
+      "id": 18,
+      "nome": "mineirinho",
+      "valor": 8,
+      "descricao": "mineirinho",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas especiais"
+    },
+    {
+      "id": 19,
+      "nome": "café + nutte",
+      "valor": 8,
+      "descricao": "creme de avelã + expresso 180ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas especiais"
+    },
+    {
+      "id": 20,
+      "nome": "choco + latte",
+      "valor": 9,
+      "descricao": "chocolate quente especial 120ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas especiais"
+    },
+    {
+      "id": 22,
+      "nome": "café irlandês",
+      "valor": 13,
+      "descricao": "whisky flambado + chantilly + expresso 120ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas especiais"
+    },
+    {
+      "id": 23,
+      "nome": "café havaiano",
+      "valor": 8,
+      "descricao": "leite de coco + leite condensado + expresso 120ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas especiais"
+    },
+    {
+      "id": 24,
+      "nome": "café brigadeiro",
+      "valor": 8,
+      "descricao": "choc. amargo + leite condensado + expresso 120ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas especiais"
+    },
+    {
+      "id": 25,
+      "nome": "cine café",
+      "valor": 8,
+      "descricao": "cine café",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas especiais"
+    },
+    {
+      "id": 26,
+      "nome": "café VIENENSE",
+      "valor": 10,
+      "descricao": "expresso + creme de leite + chocolate + chantilly + canela 150ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas especiais"
+    },
+    {
+      "id": 27,
+      "nome": "soda italiana",
+      "valor": 8,
+      "descricao": "soda artesanal em divesos sabores + gelo 400ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas geladas"
+    },
+    {
+      "id": 28,
+      "nome": "soda polonesa",
+      "valor": 5,
+      "descricao": "soda artesanal em divesos saboras + vodka + gelo 400ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas geladas"
+    },
+    {
+      "id": 29,
+      "nome": "bonbon freddo",
+      "valor": 9,
+      "descricao": "expresso + leite condensado + gelo 400ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas geladas"
+    },
+    {
+      "id": 30,
+      "nome": "expresso + tônica",
+      "valor": 8,
+      "descricao": "expresso + água tônica + cubos de gelo 400ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas geladas"
+    },
+    {
+      "id": 31,
+      "nome": "capuccino gelado",
+      "valor": 10,
+      "descricao": "capuccino especial + leite + gelo + raspa de chocolate 400ml",
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "categoria": "bebidas geladas"
+    },
+    {
+      "id": 32,
+      "nome": "pão de queijo",
+      "valor": 2,
+      "descricao": "porção com 3 pães de queijo mineiro",
+      "opcionais": "não tem",
+      "valorOpcional": 0,
+      "categoria": "lanches"
+    },
+    {
+      "id": 33,
+      "nome": "salgados",
+      "valor": 5,
+      "descricao": "variados sabores",
+      "opcionais": "não tem",
+      "valorOpcional": 0,
+      "categoria": "lanches"
+    },
+    {
+      "id": 34,
+      "nome": "bolos",
+      "valor": 4,
+      "descricao": "fatia de bolo em sabores especiais",
+      "opcionais": "não tem",
+      "valorOpcional": 0,
+      "categoria": "lanches"
+    },
+    {
+      "id": 35,
+      "nome": "refrigerante",
+      "valor": 4.5,
+      "descricao": "refrigerante em lata",
+      "opcionais": "não tem",
+      "valorOpcional": 0,
+      "categoria": "bebidas diversas"
+    },
+    {
+      "id": 36,
+      "nome": "água tônica",
+      "valor": 4.5,
+      "descricao": "água tônica em lata",
+      "opcionais": "não tem",
+      "valorOpcional": 0,
+      "categoria": "bebidas diversas"
+    },
+    {
+      "id": 37,
+      "nome": "sucos",
+      "valor": 4.5,
+      "descricao": "sucos de 350ml",
+      "opcionais": "não tem",
+      "valorOpcional": 0,
+      "categoria": "bebidas diversas"
+    },
+    {
+      "id": 38,
+      "nome": "água mineral",
+      "valor": 2.5,
+      "descricao": "garrafa com 500ml",
+      "opcionais": "não tem",
+      "valorOpcional": 0,
+      "categoria": "bebidas diversas"
+    },
+    {
+      "id": 39,
+      "nome": "água com gás",
+      "valor": 3.5,
+      "descricao": "garrafa com 500ml",
+      "opcionais": "não tem",
+      "valorOpcional": 0,
+      "categoria": "bebidas diversas"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+2020-10-27T04:04:27.883Z [logger] info: API STARTED!
+2020-10-27T04:04:29.675Z [logger] info: API STARTED!
+2020-10-27T04:05:20.951Z [logger] info: API STARTED!
+2020-10-27T04:46:07.867Z [logger] info: API STARTED!
+2020-10-27T04:46:21.934Z [logger] info: API STARTED!
+2020-10-27T04:46:36.676Z [logger] info: API STARTED!
+2020-10-27T04:46:44.694Z [logger] info: API STARTED!
+2020-10-27T04:46:56.866Z [logger] info: API STARTED!
+2020-10-27T04:47:19.305Z [logger] info: API STARTED!
+2020-10-27T04:47:30.716Z [logger] info: API STARTED!
+2020-10-27T04:48:03.002Z [logger] info: API STARTED!
+2020-10-27T04:48:22.401Z [logger] info: API STARTED!
+2020-10-27T04:48:35.662Z [logger] info: API STARTED!
+2020-10-27T04:48:40.050Z [logger] info: API STARTED!
+2020-10-27T04:48:47.398Z [logger] info: API STARTED!
+2020-10-27T04:48:49.632Z [logger] info: API STARTED!
+2020-10-27T04:48:59.659Z [logger] info: API STARTED!
+2020-10-27T04:49:49.591Z [logger] info: API STARTED!
+2020-10-27T04:50:02.556Z [logger] info: API STARTED!
+2020-10-27T04:50:13.955Z [logger] info: API STARTED!
+2020-10-27T04:50:36.397Z [logger] info: API STARTED!
+2020-10-27T04:50:46.706Z [logger] info: API STARTED!
+2020-10-27T04:51:18.950Z [logger] info: API STARTED!
+2020-10-27T04:51:25.274Z [logger] info: GET /produto - 23:"café havaiano"
+2020-10-27T04:51:29.115Z [logger] info: GET /produtos
+2020-10-27T04:52:22.055Z [logger] info: PUT /produto - 40
+2020-10-27T04:52:46.779Z [logger] info: PUT /produto - 40
+2020-10-27T04:52:46.821Z [logger] info: PUT /produto - 40
+2020-10-27T04:52:58.379Z [logger] info: DELETE /produto - "40"
+2020-10-27T04:59:41.112Z [logger] info: API STARTED!
+2020-10-27T04:59:56.929Z [logger] info: API STARTED!
+2020-10-27T05:01:16.281Z [logger] info: API STARTED!
+2020-10-27T05:01:54.071Z [logger] info: API STARTED!
+2020-10-27T05:02:03.713Z [logger] info: API STARTED!
+2020-10-27T05:02:11.003Z [logger] info: POST /produto - 40:"Agua saloba"
+2020-10-27T05:02:31.976Z [logger] info: DELETE /produto - "40"
+2020-10-27T05:04:58.787Z [logger] info: API STARTED!
+2020-10-27T05:05:17.608Z [logger] info: API STARTED!
+2020-10-27T05:05:35.381Z [logger] info: PUT /produto - 39
+2020-10-27T05:07:00.906Z [logger] info: GET /produtos
+2020-10-27T05:07:46.085Z [logger] info: GET /produtos
+2020-10-27T05:08:40.782Z [logger] info: PUT /produto - 39
+2020-10-27T05:09:44.155Z [logger] info: API STARTED!
+2020-10-27T05:11:00.985Z [logger] info: API STARTED!
+2020-10-27T05:11:10.417Z [logger] info: PUT /produto - 2000:"água com gás"
+2020-10-27T05:12:30.180Z [logger] info: API STARTED!
+2020-10-27T05:12:35.530Z [logger] info: API STARTED!
+2020-10-27T05:12:48.539Z [logger] info: API STARTED!
+2020-10-27T05:12:57.429Z [logger] error:  undefined undefined - Registro não encontrado
+2020-10-27T05:13:42.631Z [logger] info: API STARTED!
+2020-10-27T05:13:45.272Z [logger] error:  undefined undefined - Registro não encontrado.
+2020-10-27T05:13:46.334Z [logger] error:  undefined undefined - Registro não encontrado.
+2020-10-27T05:14:21.033Z [logger] info: API STARTED!
+2020-10-27T05:14:23.471Z [logger] error:  undefined undefined - 
+2020-10-27T05:16:26.862Z [logger] info: API STARTED!
+2020-10-27T05:16:40.442Z [logger] info: API STARTED!
+2020-10-27T05:18:23.177Z [logger] info: API STARTED!
+2020-10-27T05:19:02.278Z [logger] info: API STARTED!
+2020-10-27T05:19:05.948Z [logger] info: PUT /produto - 2000:"água com gás"
+2020-10-27T05:19:05.949Z [logger] error:  undefined undefined - Cannot set headers after they are sent to the client
+2020-10-28T17:22:31.841Z [logger] info: GET /produtos
+2020-10-28T17:22:37.225Z [logger] info: GET /produto - 7:"café colino"
+2020-10-28T17:26:41.417Z [logger] info: API STARTED!
+2020-10-28T17:54:09.428Z [logger] info: API STARTED!
+2020-10-28T17:54:28.441Z [logger] info: API STARTED!
+2020-10-28T17:54:32.385Z [logger] info: GET /produtos
+2020-10-28T17:56:15.181Z [logger] info: API STARTED!
+2020-10-28T17:57:26.696Z [logger] info: API STARTED!
+2020-10-28T17:59:06.861Z [logger] info: API STARTED!
+2020-10-28T17:59:58.601Z [logger] info: API STARTED!
+2020-10-28T18:02:10.384Z [logger] info: GET /produto - error: "Não Cadastrado"
+2020-10-28T18:04:22.661Z [logger] info: GET /produto - error: "Não Cadastrado"
+2020-10-28T18:04:45.424Z [logger] info: API STARTED!
+2020-10-28T18:04:47.830Z [logger] info: GET /produto - error: "Não Cadastrado"
+2020-10-28T18:05:36.282Z [logger] info: GET /produtos
+2020-10-28T18:05:59.942Z [logger] info: API STARTED!
+2020-10-28T18:06:10.148Z [logger] info: GET /produto - error: "Não Cadastrado"
+2020-10-28T18:06:56.346Z [logger] info: API STARTED!
+2020-10-28T18:07:17.054Z [logger] info: API STARTED!
+2020-10-28T18:07:22.045Z [logger] info: GET /produto - error: "Não Cadastrado"
+2020-10-28T18:10:07.112Z [logger] info: GET /produto - error: "Não Cadastrado"
+2020-10-28T18:11:24.368Z [logger] info: GET /produto - error: "Não Cadastrado"
+2020-10-28T18:12:23.197Z [logger] info: API STARTED!
+2020-10-28T18:12:27.446Z [logger] info: GET /produto - error: "Nome produto INVALIDO"
+2020-10-28T18:16:19.585Z [logger] info: API STARTED!
+2020-10-28T18:23:20.332Z [logger] info: GET /produtos
+2020-10-28T18:24:19.087Z [logger] info: API STARTED!
+2020-10-28T18:26:21.588Z [logger] info: GET /produtos
+2020-10-28T18:26:51.429Z [logger] info: GET /produtos
+2020-10-28T18:26:58.908Z [logger] info: GET /produtos
+2020-10-28T18:27:11.849Z [logger] info: GET /produtos
+2020-10-28T18:27:57.611Z [logger] info: GET /produtos
+2020-10-28T18:28:32.478Z [logger] info: GET /produtos
+2020-10-28T18:29:28.376Z [logger] info: GET /produtos
+2020-10-28T18:29:37.799Z [logger] info: GET /produtos
+2020-10-28T18:30:51.090Z [logger] info: GET /produtos
+2020-10-28T18:34:25.170Z [logger] info: GET /produtos
+2020-10-28T18:35:03.089Z [logger] info: GET /produtos
+2020-10-28T18:36:27.584Z [logger] info: GET /produtos
+2020-10-28T18:36:44.273Z [logger] info: GET /produtos
+2020-10-28T18:37:46.982Z [logger] info: GET /produtos
+2020-10-28T18:38:19.249Z [logger] info: GET /produtos
+2020-10-28T18:39:33.547Z [logger] info: GET /produtos
+2020-10-28T18:40:20.005Z [logger] info: GET /produtos
+2020-10-28T18:40:27.056Z [logger] info: GET /produtos
+2020-10-28T18:43:00.108Z [logger] info: GET /produtos
+2020-10-28T18:44:24.994Z [logger] info: GET /produtos
+2020-10-28T18:44:41.327Z [logger] info: GET /produtos
+2020-10-28T18:44:54.554Z [logger] info: GET /produtos
+2020-10-28T18:47:50.229Z [logger] info: GET /produtos
+2020-10-28T18:49:21.053Z [logger] info: GET /produtos
+2020-10-28T18:49:31.650Z [logger] info: GET /produtos
+2020-10-28T18:50:18.748Z [logger] info: GET /produtos
+2020-10-28T18:50:42.146Z [logger] info: GET /produtos
+2020-10-28T18:51:06.109Z [logger] info: GET /produtos
+2020-10-28T18:51:26.830Z [logger] info: GET /produtos
+2020-10-28T18:52:31.237Z [logger] info: GET /produtos
+2020-10-28T18:54:52.129Z [logger] info: GET /produtos
+2020-10-28T19:00:38.936Z [logger] info: GET /produtos
+2020-10-28T19:01:09.425Z [logger] info: GET /produtos
+2020-10-28T19:01:36.559Z [logger] info: GET /produtos
+2020-10-28T19:01:50.943Z [logger] info: GET /produtos
+2020-10-28T19:02:09.272Z [logger] info: GET /produtos
+2020-10-28T19:02:19.938Z [logger] info: GET /produtos
+2020-10-28T19:02:29.357Z [logger] info: GET /produtos
+2020-10-28T19:02:36.971Z [logger] info: GET /produtos
+2020-10-28T19:02:43.402Z [logger] info: GET /produtos
+2020-10-28T19:03:06.923Z [logger] info: GET /produtos
+2020-10-28T19:03:15.505Z [logger] info: GET /produtos
+2020-10-28T19:03:30.343Z [logger] info: GET /produtos
+2020-10-28T19:03:37.404Z [logger] info: GET /produtos
+2020-10-28T19:03:45.679Z [logger] info: GET /produtos
+2020-10-28T19:05:11.803Z [logger] info: GET /produtos
+2020-10-28T19:06:59.103Z [logger] info: GET /produtos
+2020-10-28T19:07:00.102Z [logger] info: GET /produtos
+2020-10-28T19:07:00.497Z [logger] info: GET /produtos
+2020-10-28T19:07:00.654Z [logger] info: GET /produtos
+2020-10-28T19:07:00.910Z [logger] info: GET /produtos
+2020-10-28T19:07:01.160Z [logger] info: GET /produtos
+2020-10-28T19:07:47.839Z [logger] info: GET /produtos
+2020-10-28T19:08:30.828Z [logger] info: GET /produtos
+2020-10-28T19:09:18.977Z [logger] info: GET /produtos
+2020-10-28T19:09:37.540Z [logger] info: GET /produtos
+2020-10-28T19:10:07.551Z [logger] info: GET /produtos
+2020-10-28T19:10:31.373Z [logger] info: GET /produtos
+2020-10-28T19:11:40.941Z [logger] info: GET /produtos
+2020-10-28T19:11:52.963Z [logger] info: GET /produtos
+2020-10-28T19:12:04.178Z [logger] info: GET /produtos
+2020-10-28T19:14:11.878Z [logger] info: GET /produtos
+2020-10-28T19:15:17.239Z [logger] info: API STARTED!
+2020-10-28T19:15:19.877Z [logger] info: GET /produtos
+2020-10-28T19:15:40.717Z [logger] info: API STARTED!
+2020-10-28T19:15:59.028Z [logger] info: GET /produtos
+2020-10-28T19:16:05.428Z [logger] info: API STARTED!
+2020-10-28T19:16:42.367Z [logger] info: API STARTED!
+2020-10-28T19:16:45.534Z [logger] info: API STARTED!
+2020-10-28T19:16:47.815Z [logger] info: GET /produtos
+2020-10-28T19:17:28.785Z [logger] info: API STARTED!
+2020-10-28T19:17:33.816Z [logger] info: API STARTED!
+2020-10-28T19:17:52.250Z [logger] info: API STARTED!
+2020-10-28T19:17:54.499Z [logger] info: API STARTED!
+2020-10-28T19:17:57.123Z [logger] info: GET /produtos
+2020-10-28T19:18:40.553Z [logger] info: GET /produtos
+2020-10-28T19:24:00.340Z [logger] info: GET /produtos
+2020-10-28T19:24:41.159Z [logger] info: GET /produtos
+2020-10-28T19:25:45.306Z [logger] info: API STARTED!
+2020-10-28T19:25:56.256Z [logger] info: GET /produtos
+2020-10-28T19:26:28.674Z [logger] info: API STARTED!
+2020-10-28T19:26:30.082Z [logger] info: GET /produtos
+2020-10-28T19:28:14.003Z [logger] info: API STARTED!
+2020-10-28T19:28:18.729Z [logger] info: API STARTED!
+2020-10-28T19:28:22.777Z [logger] info: GET /produtos
+2020-10-28T19:31:03.968Z [logger] info: API STARTED!
+2020-10-28T19:32:44.730Z [logger] info: API STARTED!
+2020-10-28T19:33:11.267Z [logger] info: GET /produtos
+2020-10-28T19:33:46.852Z [logger] info: API STARTED!
+2020-10-28T19:35:14.514Z [logger] info: GET /produtos
+2020-10-28T19:36:19.064Z [logger] info: GET /produtos
+2020-10-28T19:36:57.867Z [logger] info: GET /produtos
+2020-10-28T19:36:59.433Z [logger] info: GET /produtos
+2020-10-28T19:36:59.971Z [logger] info: GET /produtos
+2020-10-28T19:37:00.410Z [logger] info: GET /produtos
+2020-10-28T19:37:00.826Z [logger] info: GET /produtos
+2020-10-28T19:37:01.194Z [logger] info: GET /produtos
+2020-10-28T19:37:01.597Z [logger] info: GET /produtos
+2020-10-28T19:37:21.753Z [logger] info: GET /produtos
+2020-10-28T19:39:14.429Z [logger] info: API STARTED!
+2020-10-28T19:39:52.436Z [logger] info: API STARTED!
+2020-10-28T19:40:28.236Z [logger] info: API STARTED!
+2020-10-28T19:40:41.815Z [logger] info: API STARTED!
+2020-10-28T19:41:04.763Z [logger] info: API STARTED!
+2020-10-28T19:42:25.768Z [logger] info: API STARTED!
+2020-10-28T19:42:45.886Z [logger] info: API STARTED!
+2020-10-28T19:44:06.087Z [logger] info: GET /produtos
+2020-10-28T19:44:29.188Z [logger] info: GET /produtos
+2020-10-28T19:44:57.822Z [logger] info: GET /produtos
+2020-10-28T19:45:05.956Z [logger] info: GET /produtos
+2020-10-28T19:45:16.938Z [logger] info: GET /produtos
+2020-10-28T19:47:34.774Z [logger] info: GET /produtos
+2020-10-28T19:47:38.002Z [logger] info: GET /produtos
+2020-10-28T19:47:38.324Z [logger] info: GET /produtos
+2020-10-28T19:47:38.534Z [logger] info: GET /produtos
+2020-10-28T19:49:41.598Z [logger] info: GET /produtos
+2020-11-01T11:40:45.854Z [logger] info: GET /produtos
+2020-11-01T12:09:47.518Z [logger] info: API STARTED!
+2020-11-01T12:09:47.740Z [logger] info: API STARTED!
+2020-11-01T12:10:22.686Z [logger] info: API STARTED!
+2020-11-01T12:55:18.317Z [logger] info: GET /produtos

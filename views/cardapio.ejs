@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <form method="POST" action="/api/cardapio">
+      <div class="row">
+        <div class="col s6">
+          <span class="flow-text">
+            <label>nome</label>
+            <input name="nome">
+          </span></div>
+        <div class="col s6">
+          <span class="flow-text">
+            <label>valor</label>
+            <input name="valor">
+          </span>
+        </div>
+
+        <div class="col s6">
+          <span class="flow-text">
+            <label>descricao</label>
+            <input name="descricao">
+          </span>
+        </div>
+
+        <div class="col s6">
+          <span class="flow-text">
+            <label>opcionais</label>
+            <input name="opcionais">
+          </span>
+        </div>
+
+        <div class="col s6">
+          <span class="flow-text">
+            <label>valorOpcional</label>
+            <input name="valorOpcional">
+          </span>
+        </div>
+
+        <div class="col s6">
+          <span class="flow-text">
+            <label>categoria</label>
+            <input name="categoria">
+          </span>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+
+  </div>
+
+
+</body>
+
+</html>
