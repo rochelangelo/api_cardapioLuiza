@@ -52,10 +52,10 @@
         const td6 = document.createElement("td");
 
         td1.textContent = nome;
-        td2.textContent = `R$${format(valor)}`;
+        td2.textContent = format(valor);
         td3.textContent = descricao;
         td4.textContent = opcionais;
-        td5.textContent = valorOpcional;
+        td5.textContent = format(valorOpcional);
         td6.textContent = categoria;
 
         tr.appendChild(td1)
@@ -70,8 +70,7 @@
     }
 
     function format(numero) {
-      const formatter = new Intl.NumberFormat('pt-br')
-      return formatter.format(numero);
+      return "R$" + numero.toFixed(2);
     }
 
     init()
