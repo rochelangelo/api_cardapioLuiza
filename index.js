@@ -2,8 +2,6 @@ import express from "express";
 import winston from "winston";
 import cardapioRouter from "./routes/cardapio.js";
 import { promises as fs } from "fs";
-import ejs from "ejs";
-import { format } from './dados/helpers/formatter.js';
 import cors from "cors";
 
 const { readFile, writeFile } = fs;
@@ -31,7 +29,7 @@ const app = express();
 app.set("view engine", "ejs");
 
 app.get("/", async (req, res) => {
-  res.render("index", { formatter: format });
+  res.render("index");
 });
 
 app.get("/cadastro", async (req, res) => {
