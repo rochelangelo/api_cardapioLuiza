@@ -1,9 +1,8 @@
 import express from "express";
 import winston from "winston";
 import cardapioRouter from "./routes/cardapio.js";
+import vendaRouter from "./routes/vendas.js"
 import { promises as fs } from "fs";
-import ejs from "ejs";
-import { format } from './dados/helpers/formatter.js';
 import cors from "cors";
 
 const { readFile, writeFile } = fs;
@@ -31,7 +30,7 @@ const app = express();
 app.set("view engine", "ejs");
 
 app.get("/", async (req, res) => {
-  res.render("index", { formatter: format });
+  res.render("index");
 });
 
 app.get("/cadastro", async (req, res) => {
@@ -42,16 +41,27 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 app.use("/api/cardapio", cardapioRouter);
+app.use("/api/venda", vendaRouter);
 app.listen(3000, async () => {
   try {
     await readFile("./dados/cardapio.json");
+    await readFile("./dados/vendas.json");
     logger.info("API STARTED!");
   } catch (err) {
     const initJSONcardapio = {
       nextId: 1,
       produtos: []
     };
+    const initJSONvendas = {
+      nextId: 1,
+      vendas: []
+    };
     writeFile("./dados/cardapio.json", JSON.stringify(initJSONcardapio)).then(() => {
+      logger.info("API STARTED! and FILE CREATED");
+    }).catch(err => {
+      logger.info(err);
+    });
+    writeFile("./dados/vendas.json", JSON.stringify(initJSONvendas)).then(() => {
       logger.info("API STARTED! and FILE CREATED");
     }).catch(err => {
       logger.info(err);
