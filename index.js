@@ -24,6 +24,8 @@ global.logger = winston.createLogger({
   )
 });
 
+
+
 const TESTE = "TESTE";
 
 const app = express();
@@ -35,6 +37,19 @@ app.get("/", async (req, res) => {
 
 app.get("/cadastro", async (req, res) => {
   res.render("cardapio", { teste: TESTE });
+});
+
+app.get("/venda", async (req, res) => {
+  const data = JSON.parse(await readFile("./dados/cardapio.json"));
+  const a = data.produtos
+  function update() {
+    const select = document.getElementById('produto');
+    let value = select.options[select.selectedIndex].value;
+    console.log(value);
+    return value;
+  }
+
+  res.render("venda", { data: a, update: update });
 });
 
 app.use(express.json());

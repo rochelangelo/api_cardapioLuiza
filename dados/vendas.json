@@ -1,1 +1,109 @@
-{"nextId":1,"vendas":[]}
+{
+  "nextId": 5,
+  "vendas": [
+    {
+      "id": 1,
+      "itens": [
+        {
+          "nomeProduto": "cafe",
+          "valor": 10,
+          "quantidade": 2
+        },
+        {
+          "nomeProduto": "cafe2",
+          "valor": 2.5,
+          "quantidade": 1
+        },
+        {
+          "nomeProduto": "cafe3",
+          "valor": 2,
+          "quantidade": 3
+        }
+      ],
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "valorTotal": 27,
+      "desconto": 2.5,
+      "quantidadeItens": 3,
+      "data": 1605017856250
+    },
+    {
+      "id": 2,
+      "itens": [
+        {
+          "nomeProduto": "cafe",
+          "valor": 10,
+          "quantidade": 2
+        },
+        {
+          "nomeProduto": "cafe2",
+          "valor": 2.5,
+          "quantidade": 1
+        },
+        {
+          "nomeProduto": "cafe3",
+          "valor": 2,
+          "quantidade": 3
+        }
+      ],
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "valorTotal": 27,
+      "desconto": 2.5,
+      "quantidadeItens": 3,
+      "data": 1605021996666
+    },
+    {
+      "id": 3,
+      "itens": [
+        {
+          "nomeProduto": "cafe",
+          "valor": 10,
+          "quantidade": 2
+        },
+        {
+          "nomeProduto": "cafe2",
+          "valor": 2.5,
+          "quantidade": 1
+        },
+        {
+          "nomeProduto": "cafe3",
+          "valor": 2,
+          "quantidade": 3
+        }
+      ],
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "valorTotal": 27,
+      "desconto": 2.5,
+      "quantidadeItens": 3,
+      "data": "2020-11-10T15:42:56.690Z"
+    },
+    {
+      "id": 4,
+      "itens": [
+        {
+          "nomeProduto": "cafe",
+          "valor": 10,
+          "quantidade": 2
+        },
+        {
+          "nomeProduto": "cafe2",
+          "valor": 2.5,
+          "quantidade": 1
+        },
+        {
+          "nomeProduto": "cafe3",
+          "valor": 2,
+          "quantidade": 3
+        }
+      ],
+      "opcionais": "urbano",
+      "valorOpcional": 1,
+      "valorTotal": 27,
+      "desconto": 2.5,
+      "quantidadeItens": 3,
+      "data": "2020-11-10"
+    }
+  ]
+}

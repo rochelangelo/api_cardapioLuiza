@@ -5,6 +5,8 @@ const { readFile, writeFile } = fs;
 
 const router = express.Router();
 
+
+
 router.post("/", async (req, res, next) => {
   try {
     let produto = req.body;

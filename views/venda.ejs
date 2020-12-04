@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CARDAPIO</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>CARDAPIO</h1>
+    <form method="POST" action="/api/vendas ">
+      <div class="row">
+        <div class="col s6">
+          <label>Produto</label>
+          <select id="produto" class="browser-default">
+            <option value="" disabled selected>Selecione o produto</option>
+            <% for (var i=0; i< data.length; i++) { %>
+            <option value="<%= data[i].id %>"> <%= data[i].nome %> </option>
+            <% } %>
+          </select>
+        </div>
+        <div class=" col s6">
+          <div class="col s6">
+            <span class="flow-text">
+              <label>valor</label>
+              <input name="valor">
+            </span>
+          </div>
+          <div class="col s6">
+            <span class="flow-text">
+              <label>opcionais</label>
+              <input name="opcionais">
+            </span>
+          </div>
+          <div class="col s6">
+            <span class="flow-text">
+              <label>valorOpcional</label>
+              <input name="valorOpcional">
+            </span>
+          </div>
+
+
+        </div>
+      </div>
+    </form>
+
+
+
+</body>
+
+</html>
