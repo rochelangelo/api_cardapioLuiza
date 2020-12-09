@@ -1,1 +1,1 @@
-web: yarn star
+web: npm star
