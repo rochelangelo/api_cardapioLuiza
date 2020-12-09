@@ -51,33 +51,4 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 app.use('/api/cardapio', cardapioRouter);
 app.use('/api/venda', vendaRouter);
-app.listen(process.env.PORT || 3000, async () => {
-  try {
-    await readFile('./dados/cardapio.json');
-    await readFile('./dados/vendas.json');
-    logger.info('API STARTED!');
-  } catch (err) {
-    const initJSONcardapio = {
-      nextId: 1,
-      produtos: [],
-    };
-    const initJSONvendas = {
-      nextId: 1,
-      vendas: [],
-    };
-    writeFile('./dados/cardapio.json', JSON.stringify(initJSONcardapio))
-      .then(() => {
-        logger.info('API STARTED! and FILE CREATED');
-      })
-      .catch((err) => {
-        logger.info(err);
-      });
-    writeFile('./dados/vendas.json', JSON.stringify(initJSONvendas))
-      .then(() => {
-        logger.info('API STARTED! and FILE CREATED');
-      })
-      .catch((err) => {
-        logger.info(err);
-      });
-  }
-});
+app.listen(process.env.PORT || 3000);
