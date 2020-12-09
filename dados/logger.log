@@ -500,3 +500,6 @@
 2020-12-09T16:11:30.199Z [logger] info: GET /produtos
 2020-12-09T16:19:40.453Z [logger] info: API STARTED!
 2020-12-09T16:19:50.157Z [logger] info: GET /produtos
+2020-12-09T16:26:29.838Z [logger] info: API STARTED!
+2020-12-09T16:26:30.034Z [logger] info: GET /produtos
+2020-12-09T16:26:41.455Z [logger] info: GET /produtos

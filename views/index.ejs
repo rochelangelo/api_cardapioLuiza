@@ -1,81 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CARDAPIO</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CARDAPIO</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-</head>
+  <body>
+    <div class="container">
+      <h1>CARDAPIO</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Valor</th>
+            <th>Descrição</th>
+            <th>Opcionais</th>
+            <th>Valor do Opcional</th>
+            <th>Categoria</th>
+          </tr>
+        </thead>
 
-<body>
-  <div class="container">
-    <h1>CARDAPIO</h1>
-    <table>
-      <thead>
-        <tr>
-          <th>Nome</th>
-          <th>Valor</th>
-          <th>Descrição</th>
-          <th>Opcionais</th>
-          <th>Valor do Opcional</th>
-          <th>Categoria</th>
-        </tr>
-      </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <script>
+      async function init() {
+        const data = await fetch(
+          'https://apicafeluiza.herokuapp.com/api/cardapio'
+        );
+        const json = await data.json();
+        //console.log(json)
+        render(json);
+      }
 
-      <tbody id="tbody">
-      </tbody>
-    </table>
+      async function render(produtos) {
+        const tbody = document.querySelector('#tbody');
 
-  </div>
-  <script>
-    async function init() {
-      const data = await fetch("http://localhost:3000/api/cardapio")
-      const json = await data.json();
-      //console.log(json)
-      render(json);
-    }
+        produtos.produtos.map(async (produto) => {
+          const {
+            nome,
+            valor,
+            descricao,
+            opcionais,
+            valorOpcional,
+            categoria,
+          } = produto;
 
-    async function render(produtos) {
-      const tbody = document.querySelector('#tbody');
+          const tr = document.createElement('tr');
+          const td1 = document.createElement('td');
+          const td2 = document.createElement('td');
+          const td3 = document.createElement('td');
+          const td4 = document.createElement('td');
+          const td5 = document.createElement('td');
+          const td6 = document.createElement('td');
 
+          td1.textContent = nome;
+          td2.textContent = format(valor);
+          td3.textContent = descricao;
+          td4.textContent = opcionais;
+          td5.textContent = format(valorOpcional);
+          td6.textContent = categoria;
 
-      produtos.produtos.map(async produto => {
-        const { nome, valor, descricao, opcionais, valorOpcional, categoria } = produto;
+          tr.appendChild(td1);
+          tr.appendChild(td2);
+          tr.appendChild(td3);
+          tr.appendChild(td4);
+          tr.appendChild(td5);
+          tr.appendChild(td6);
+          tbody.appendChild(tr);
+        });
+      }
 
-        const tr = document.createElement("tr");
-        const td1 = document.createElement("td");
-        const td2 = document.createElement("td");
-        const td3 = document.createElement("td");
-        const td4 = document.createElement("td");
-        const td5 = document.createElement("td");
-        const td6 = document.createElement("td");
+      function format(numero) {
+        return 'R$' + numero.toFixed(2);
+      }
 
-        td1.textContent = nome;
-        td2.textContent = format(valor);
-        td3.textContent = descricao;
-        td4.textContent = opcionais;
-        td5.textContent = format(valorOpcional);
-        td6.textContent = categoria;
-
-        tr.appendChild(td1)
-        tr.appendChild(td2)
-        tr.appendChild(td3)
-        tr.appendChild(td4)
-        tr.appendChild(td5)
-        tr.appendChild(td6)
-        tbody.appendChild(tr);
-      })
-
-    }
-
-    function format(numero) {
-      return "R$" + numero.toFixed(2);
-    }
-
-    init()
-  </script>
-
-</body>
-
+      init();
+    </script>
+  </body>
 </html>
